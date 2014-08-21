@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tv_show"
+        android:layout_alignParentTop="true"
+        android:textSize="12pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_simple"
+        android:layout_below="@id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_simple" />
+    
+    <Button 
+        android:id="@+id/btn_simplelist"
+        android:layout_below="@id/btn_simple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_simplelist"/>
+
+    <Button 
+        android:id="@+id/btn_singlechoice"
+        android:layout_below="@id/btn_simplelist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_singlechoice"/>
+
+    <Button 
+        android:id="@+id/btn_multichoice"
+        android:layout_below="@id/btn_singlechoice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_multichoice"/>
+    
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AlertDialog</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_simple">Simple</string>
+    <string name="btn_simplelist">SimpleList</string>
+    <string name="btn_singlechoice">Single Choice</string>
+    <string name="btn_multichoice">Multiple Choice</string>
+
+</resources>
